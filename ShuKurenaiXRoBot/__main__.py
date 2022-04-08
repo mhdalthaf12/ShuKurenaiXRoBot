@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Beyblade theme management bot [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
+✪ I'm an Beyblade theme management bot [🔥](https://telegra.ph/file/122b24f5e9e3daf6e6bab.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -116,12 +116,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
+Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/122b24f5e9e3daf6e6bab.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@shukurenai007bot**"""
-HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
-GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+DONATE_STRING = """Contact to **@evamariyagbot**"""
+HELP_IMG = "https://telegra.ph/file/122b24f5e9e3daf6e6bab.jpg"
+GROUP_IMG = "https://telegra.ph/file/122b24f5e9e3daf6e6bab.jpg"
 
 
 
@@ -801,7 +801,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](http://telegra.ph/file/ff558497b647d265ef029.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](https://telegra.ph/file/122b24f5e9e3daf6e6bab.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
