@@ -93,7 +93,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
+            text="➗ Add єνα мαяιуα To Your Group ➗", url="t.me/evamariyagbot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -109,7 +109,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url=f"https://t.me/shukurenai007"),
+                             url=f"https://t.me/eva_mariya_update"),
     ],
 
 ]
@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/shukurenai007"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/eva_mariya_update"),
                   ]
                 ]
             ),
@@ -379,15 +379,15 @@ def shukurenai_about_callback(update, context):
     query = update.callback_query
     if query.data == "shukurenai_":
         query.message.edit_text(
-            text="๏ I'm *Shu Kurenai*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *єνα мαяιуα*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Shu Kurenai's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for ShuKurenaiXRoBot.",
+            "\n\n_єνα мαяιуα's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for єνα мαяιуα.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -428,7 +428,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulation, Shu Kurenai now ready to manage your group."
+            "\nCongragulation, єνα мαяιуα now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -455,14 +455,14 @@ def shukurenai_about_callback(update, context):
         )
     elif query.data == "shukurenai_support":
         query.message.edit_text(
-            text="*๏ Shu Kurenai support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Shu Kurenai.",
+            text="*๏ єνα мαяιуα support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on єνα мαяιуα.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/shukurenai007"),
+                    InlineKeyboardButton(text="Support", url="t.me/eva_support_chat"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/eva_mariya_update"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -475,8 +475,8 @@ def shukurenai_about_callback(update, context):
 
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Shu Kurenai\n"
-            "\nHere Developers Making And Give Inspiration For Made The ShuKurenaiXRoBot",
+            text=f"๏ Credis for єνα мαяιуα\n"
+            "\nHere Developers Making And Give Inspiration For Made The єνα мαяιуα",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -807,10 +807,10 @@ def main():
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/ShuKurenaiSupport"),
+                             url=f"https://t.me/eva_support_chat"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/shukurenai007")
+                             url="https://t.me/eva_mariya_update")
                      ] 
                 ]
             ),
